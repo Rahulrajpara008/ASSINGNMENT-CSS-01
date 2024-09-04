@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 200px 200px 200px 200px ;
+            grid-template-rows: 200px 200px 200px ;
+            gap: 10px;
+            padding: 20px;
+            background-color: black;
+        }
+        div{
+            background-size: cover;
+            background-position: right;
+        }
+        .box1{
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            background-position: center;
+            background-size: cover;
+        }
+        .box2{
+            grid-row-start:2 ;
+            grid-row-end:4 ;
+            background-position: right;
+            background-size: cover;
+
+        }
+        .box3{
+            grid-row: span 2;
+            background-position: center;
+            background-size: cover;
+        }
+       
+        .box5{
+            grid-row: span 2;
+            background-position: center;
+            background-size: cover;
+        }
+       
+        .box7{
+            grid-column: span 2;
+            background-position: center;
+            background-size: cover;
+        }
+        .main1{
+            height: 670px;
+            width: 200px;
+            background-color: black;
+            color: white;
+            text-align: end;
+            padding: 50px 10px;
+        }
+        h3{
+            font-size: xx-large;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            list-style-type: none;
+            font-size: 20px;
+        }
+        #Home{
+            color: rgb(255, 153, 0);
+        }
+    
+        .jop{
+            display: flex;
+            justify-content: end;
+            gap: 24px;
+            margin-top: 23px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="main">
+            <div class="box1" style="background-image: url(https://images.unsplash.com/photo-1720048171180-a8178a198fa8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);"></div>
+            <div class="box2" style="background-image: url(https://images.unsplash.com/photo-1725267385461-cab515fc1bbe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);"></div>
+            <div class="box3" style="background-image: url(https://images.unsplash.com/photo-1725109431763-36524de95bf9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);"></div>
+            <div class="box5" style="background-image: url(https://plus.unsplash.com/premium_photo-1675130119382-6f891206f406?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D);"></div>
+            <div class="box6" style="background-image: url(https://images.unsplash.com/photo-1719937050640-71cfd3d851be?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);"></div>
+            <div class="box7" style="background-image: url(https://images.unsplash.com/photo-1724591634731-5c6004fe6136?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);"></div>
+            <div class="box3" style="background-image: url(https://images.unsplash.com/photo-1725109431763-36524de95bf9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);"></div>
+        </div>
+        <div class="main1">
+            <h3>Shutter </h3><br>
+            <ul>
+                <li id="Home">Home</li>
+                <li> Photo</li>
+                <li>Bio</Br></li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+           <div class="jop"> <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i></div>
+        </div>
+    </div>
+</body>
+</html>

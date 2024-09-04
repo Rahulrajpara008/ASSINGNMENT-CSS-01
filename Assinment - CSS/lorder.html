@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+       }
+       .top{
+        height: 640px;
+        width: auto;
+        background-color: rgb(255, 187, 0) ;
+        background-image: linear-gradient(rgb(255, 166, 0) , rgb(61, 45, 9) );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .hoop{
+        height: 250px;
+        width: 250px;
+        border: 20px solid yellow ;
+        border-radius: 150px;
+        border-left: 15px;
+        border-top: 15px;
+        background-color: rgb(255, 166, 0);
+        animation-name: rotate;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+       }
+       @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="hoop"></div>
+    </div>
+</body>
+</html>

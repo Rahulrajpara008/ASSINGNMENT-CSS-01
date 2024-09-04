@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .hop{
+            height: 100vh;
+            width: auto;
+            display: flex;
+            justify-content: baseline;
+            align-items: center;
+        }
+        
+        .topp{
+            height: 100px;
+            width: 100px;
+            border: 2px solid ;
+            background-color: aqua;
+            border-radius: 50px;
+            position: relative;
+            animation-name: movement;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+
+        }
+        @keyframes movement {
+            0% {
+                left:0px;
+
+            }
+            25%{
+                left: 250px ;
+                height: 150px;
+                width: 150px;
+                border-radius: 100px;
+            }
+            50%{
+                left :450px ;
+                height: 250px;
+                width: 250px;
+                border-radius: 150px;
+
+            }
+            75%{
+                left:650px ;
+                height: 350px;
+                width: 350px;
+                border-radius: 200px;
+            }
+            100%{
+                left: 850px;
+                height: 450px;
+                width: 450px;
+                border-radius:300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hop">
+    <div class="topp"></div>
+    </div>
+</body>
+</html>

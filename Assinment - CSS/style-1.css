@@ -1,0 +1,373 @@
+@media screen and (max-width: 600px) {
+  .contect {
+    height: auto;
+    width: auto;
+  }
+  .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 30px;
+    gap: 30px;
+  }
+  .main ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+  }
+  i {
+    font-size: 15px;
+  }
+  .nav-3 {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .nav-3 button {
+    height: 40px;
+    width: 150px;
+    color: #794cff;
+    border: none;
+  }
+  .main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0ebfa;
+    padding: 50px;
+    gap: 20px;
+  }
+  .main2 button {
+    border: none;
+    border-radius: 80px;
+    background-color: rgb(64, 255, 64);
+    font-size: 20px;
+    padding: 7px;
+    position: relative;
+  }
+  #button {
+    background-color: rgb(240, 239, 239);
+    width: 200px;
+  }
+  .top2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top2 h1 {
+    color: rgb(1 0 8 / 70%);
+    text-align: center;
+    font-size: 70px;
+  }
+  .top3 p {
+    color: rgb(1 0 8 / 70%);
+    text-align: center;
+    font-size: 25px;
+  }
+  .top4 input {
+    padding: 20px;
+    height: 40px;
+    width: 280px;
+    border: 1px solid gray;
+  }
+  .top4 button {
+    border: 1px solid;
+    background-color: #794cff;
+    border-radius: 1px;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+  }
+
+  .main3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  img {
+    width: 100px;
+    /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  }
+  .rop3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rop1 img {
+    width: 500px;
+  }
+  .rop2 {
+    font-size: 25px;
+  }
+  .rop3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .main4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #f0ebfa;
+  }
+  #image-1 {
+    width: 500px;
+    margin-left: 50px;
+  }
+  .back-1 {
+    width: 600px;
+    height: 600px;
+  }
+  .back-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 300px;
+    padding: 20px;
+    margin-top: -128px;
+  }
+
+  .back-2 h2 {
+    color: #35414b;
+  }
+  .gop-1 {
+    background-color: #f6f3fc;
+    padding: 10px;
+  }
+
+  .main5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 30px;
+  }
+
+  .cop-1 h1 {
+    font-size: 50px;
+  }
+  .cop-2 p {
+    font-size: 20px;
+  }
+
+  .cop-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .lop-1,
+  .lop-2,
+  .lop-3 {
+    width: 300px;
+  }
+  .cop-3 p {
+    font-size: 20px;
+  }
+  .cop-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .loop-1,
+  .loop-2,
+  .loop-3 {
+    width: 300px;
+  }
+  .main6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    background-color: #f0ebfa;
+    text-align: center;
+  }
+  .rop-1 {
+    width: 500px;
+  }
+  .rop-1 h1 {
+    font-size: 50px;
+  }
+  .rop-1 p {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .rop-1 button {
+    height: 40px;
+    width: 200px;
+    background-color: #794cff;
+    color: white;
+    border: none;
+    margin-top: 30px;
+  }
+  .rop-2 img {
+    width: 500px;
+    margin-left: -100px;
+  }
+  .main7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    padding: 70px;
+  }
+  .top-1 h1 {
+    font-size: 50px;
+    width: 500px;
+    margin-left: -50px;
+  }
+  .top-2 p {
+    font-size: 20px;
+    width: 500px;
+    margin-left: -50px;
+  }
+  .top-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    width: 600px;
+  }
+  .dop-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+  }
+  .dop-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 168px;
+  }
+  .dop-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+  }
+  .top-4 {
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #796eff;
+    padding: 50px;
+    gap: 20px;
+  }
+  .mop-1 h3 {
+    font-size: 30px;
+    color: white;
+  }
+  .yop {
+    width: 200px;
+  }
+  .mop-2 {
+    margin-left: 30px;
+  }
+  .mop-3 {
+    margin-left: 30px;
+  }
+  .main8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    background-color: #1d2830;
+    color: white;
+  }
+  .kop-3{
+    margin-left:50px ;
+  }
+  .kop-4{
+    margin-left:30px ;
+  }
+  .part-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+  }
+  .main8 h3 {
+    font-size: 30px;
+  }
+  .main8 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 15px;
+  }
+
+  .sam-1 img {
+    width: 160px;
+  }
+  .sam-2 img {
+    width: 160px;
+  }
+  .kop-2 {
+    margin-top: -30px;
+  }
+  .kop-3 {
+    margin-top: -30px;
+  }
+  .kop-4 {
+    margin-top: -30px;
+  }
+  .part-2 {
+    height: 0.1px;
+    width: 1500px;
+    background-color: white;
+    border: 2px;
+  }
+  .fop-2 {
+    display: flex;
+    gap: 32px;
+  }
+  .fop-2 img {
+    width: 30px;
+  }
+  .part-3 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
